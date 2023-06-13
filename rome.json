@@ -1,0 +1,15 @@
+{
+	"$schema": "./node_modules/rome/configuration_schema.json",
+	"files": {
+		"ignore": ["node_modules", ".next", ".vscode"]
+	},
+	"organizeImports": {
+		"enabled": false
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	}
+}
